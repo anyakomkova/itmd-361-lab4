@@ -10,19 +10,18 @@
 
   <fieldset>
   <legend>My Info</legend>
-  <div><label>First Name: <input type="text" name="first_name_field" ></label></div>
-  <div><label>Last Name: <input type="text" name="last_name_field" ></label></div>
-  <div><label>Phone Number: <input type="text" name="phone_field" ></label></div>
-  <div><label>Email Address: <input type="text" name="email_field" ></label></div>
-  <div>
-    <label>Gender:</label>
+  <div><label>First Name: <input type="text" name="first_name_field" placeholder="Jane" ></label></div>
+  <div><label>Last Name: <input type="text" name="last_name_field" placeholder="Doe"></label></div>
+  <div><label>Phone Number: <input type="text" name="phone_field" placeholder="(123)456-7890" ></label></div>
+  <div><label>Email Address: <input type="text" name="email_field" placeholder="jdoe@hawk.iit.edu"></label></div>
+    <div>Gender:</div>
+    <div>
     <label>Male<input type="radio" name="gender_field" value="male"></label>
     <label>Female<input type="radio" name="gender_field" value="female"></label>
     <label>Non-Binary<input type="radio" name="gender_field" value="non-binary"></label>
     <label>Other<input type="radio" name="gender_field" value="other"></label>
   </div>
-  <div>
-    <label>Age:</label>
+    <div>Age:</div>
     <select name="age_field">
       <option value="under18" selected>Under 18</option>
       <option value="18-24">18 - 24</option>
@@ -34,7 +33,7 @@
     </select>
   </div>
 </fieldset>
-
+<div></div>>
 <fieldset>
   <legend>My Availability</legend>
   <h3>Days Available:</h3>
@@ -46,11 +45,11 @@
     <div><label><input type="checkbox" name="available_field[]" value="thursday">Thursday</label></div>
     <div><label><input type="checkbox" name="available_field[]" value="friday">Friday</label></div>
     <div><label><input type="checkbox" name="available_field[]" value="saturday">Saturday</label></div>
-    <h3>Any Comments?</h3>
+    <h3>Comments</h3>
     <textarea name="comments_field"></textarea>
   </div>
 </fieldset>
-
+<div></div>
 <input type="hidden" name="hidden_field" value="akomkova">
 <input type="submit" value="Submit">					 
 </form>
